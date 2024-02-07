@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://b1jqcorhsd2s6"]
+
+[ext_resource type="Theme" uid="uid://6yvfst5r634b" path="res://tres/theme.tres" id="1_pmmmj"]
+[ext_resource type="Script" path="res://script/button.gd" id="2_l8vp2"]
+
+[node name="Button" type="Button"]
+custom_minimum_size = Vector2(64, 64)
+offset_right = 18.0
+offset_bottom = 18.0
+theme = ExtResource("1_pmmmj")
+theme_override_colors/icon_pressed_color = Color(0.909804, 0.2, 0.631373, 1)
+theme_override_colors/icon_focus_color = Color(0.898039, 0.572549, 0.745098, 1)
+toggle_mode = true
+script = ExtResource("2_l8vp2")
+
+[connection signal="pressed" from="." to="." method="_on_pressed"]

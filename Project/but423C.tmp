@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://b1jqcorhsd2s6"]
+
+[ext_resource type="Script" path="res://button.gd" id="1_mc8eq"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ah305"]
+bg_color = Color(0, 0.698039, 0.607843, 1)
+
+[node name="Button" type="Button"]
+offset_right = 100.0
+offset_bottom = 100.0
+theme_override_styles/normal = SubResource("StyleBoxFlat_ah305")
+script = ExtResource("1_mc8eq")
+
+[connection signal="button_down" from="." to="." method="_on_button_down"]

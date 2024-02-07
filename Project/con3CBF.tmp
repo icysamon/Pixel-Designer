@@ -1,0 +1,53 @@
+[gd_scene load_steps=2 format=3 uid="uid://dydrhl52w2gi"]
+
+[ext_resource type="Script" path="res://column.gd" id="2_r8cq3"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextEdit" type="TextEdit" parent="."]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -156.0
+offset_top = -80.0
+grow_horizontal = 0
+grow_vertical = 0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="GridContainer1" type="GridContainer" parent="HBoxContainer"]
+layout_mode = 2
+script = ExtResource("2_r8cq3")
+
+[node name="GridContainer2" type="GridContainer" parent="HBoxContainer"]
+layout_mode = 2
+
+[node name="GridContainer3" type="GridContainer" parent="HBoxContainer"]
+layout_mode = 2
+
+[node name="GridContainer4" type="GridContainer" parent="HBoxContainer"]
+layout_mode = 2
+
+[node name="GridContainer5" type="GridContainer" parent="HBoxContainer"]
+layout_mode = 2
+
+[node name="GridContainer6" type="GridContainer" parent="HBoxContainer"]
+layout_mode = 2
+
+[node name="GridContainer7" type="GridContainer" parent="HBoxContainer"]
+layout_mode = 2
+
+[node name="GridContainer8" type="GridContainer" parent="HBoxContainer"]
+layout_mode = 2
