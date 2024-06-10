@@ -10,7 +10,9 @@ config_version=5
 
 [application]
 
-config/name="8x8 Design Editor"
+config/name="Pixel Designer"
+config/description="SSD1306チップのために開発したピクセルフォントのデザイナー。"
+run/main_scene="res://tscn/control.tscn"
 config/features=PackedStringArray("4.2", "GL Compatibility")
 boot_splash/bg_color=Color(0.188235, 0.364706, 0.462745, 1)
 boot_splash/show_image=false
@@ -18,7 +20,8 @@ config/icon="res://icon.svg"
 
 [display]
 
-window/size/viewport_width=648
+window/size/viewport_width=600
+window/size/viewport_height=600
 window/size/resizable=false
 
 [rendering]

@@ -1,6 +1,5 @@
-res://control.tscn
-res://theme.tres
-res://button.tscn
-res://tscn/button.tscn
 res://tscn/control.tscn
+res://tres/theme.tres
+res://tscn/button.tscn
 res://script/column.gd
+res://script/button.gd
