@@ -1,4 +1,4 @@
-# Pixel-Fonts-Designer
+# Pixel Fonts Designer
 This is a Pixel Fonts Designer for SSD1306 Driver.  
 
 ## Build
