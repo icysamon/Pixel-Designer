@@ -1,8 +1,8 @@
-# Pixel Designer
-SSD1306チップのために開発したピクセルフォントのデザイナー。
+# Pixel-Fonts-Designer
+This is a Pixel Fonts Designer for SSD1306 Driver.  
 
-## 開発環境
-- Godot 4
+## Build
+This project is build with Godot Engine 4.
 
-## サンプル
+## Preview
 ![](docs/sample.png)
